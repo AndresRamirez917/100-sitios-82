@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  display: block;
+  border: 1px solid violet;
+  color: violet;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+span {
+  color: violet;
+}
+
+.social {
+  border-radius: 50px;
+  width: 50px;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.flex-2 {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+.bio {
+  padding: 30px;
+}
+
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 2rem;
+}
+#mainheader .navbar li {
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#mainheader .navbar .social-flex {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: end;
+}
+
+#content-flex {
+  width: 90%;
+  margin: 0 auto;
+}
+#content-flex .right-panel {
+  width: 100%;
+}
+#content-flex .right-panel .bio {
+  text-align: center;
+}
+#content-flex .right-panel .bio img {
+  width: 70%;
+  border-radius: 50%;
+}
+#content-flex .right-panel .bio .social {
+  width: 10%;
+}
+#content-flex .right-panel .newsletter input {
+  width: 100%;
+}
+#content-flex .right-panel .newsletter button {
+  width: 100%;
+}
+
+#footer {
+  padding: 3rem 0;
+  text-align: center;
+  background: red;
+}/*# sourceMappingURL=styles.css.map */
