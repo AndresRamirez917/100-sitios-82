@@ -25,7 +25,15 @@ ul {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 300;
-  margin-bottom: 3rem;
+  margin: 5rem 0 3rem 0;
+}
+
+.subtitle {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin: 3rem 0;
+  font-weight: 400;
 }
 
 .container {
@@ -61,6 +69,7 @@ span {
 .social {
   border-radius: 50px;
   width: 50px;
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -77,21 +86,38 @@ span {
 
 .bio {
   padding: 30px;
-  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .newsletter {
   padding: 30px;
-  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin: 3rem 0;
 }
 
 .popularpost {
   padding: 30px;
-  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
 }
 
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#mainheader .navbar {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 #mainheader .navbar ul {
   display: flex;
   margin-top: 2rem;
@@ -117,6 +143,9 @@ span {
 #content-flex .left-panel {
   text-align: center;
 }
+#content-flex .left-panel .new1 {
+  margin-bottom: 2rem;
+}
 #content-flex .left-panel img {
   width: 90%;
 }
@@ -124,6 +153,9 @@ span {
   width: 80%;
   margin: 0 auto;
   margin-top: 1rem;
+}
+#content-flex .left-panel .new1-text a {
+  color: violet;
 }
 #content-flex .left-panel .new1-text h2 {
   margin: 2rem 0;
@@ -158,6 +190,10 @@ span {
 }
 #content-flex .right-panel .bio .social {
   width: 10%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
 }
 #content-flex .right-panel .newsletter input {
   width: 100%;
@@ -173,6 +209,112 @@ span {
   margin-top: 1rem;
   border-radius: 4px;
   cursor: pointer;
+}
+#content-flex .right-panel .popularpost .cards .card1 img {
+  padding: 1rem 0;
+}
+#content-flex .right-panel .popularpost .cards .card1 h4 {
+  margin: 1rem 0 2rem 0;
+  font-weight: 300;
+}
+
+#content-flex-2 {
+  width: 90%;
+  margin: 0 auto;
+}
+#content-flex-2 .left-panel {
+  text-align: center;
+}
+#content-flex-2 .left-panel img {
+  width: 90%;
+}
+#content-flex-2 .left-panel .news-flex {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#content-flex-2 .left-panel .news-flex h4 {
+  font-weight: 300;
+}
+#content-flex-2 .left-panel .news-flex .news-social {
+  justify-content: end;
+}
+#content-flex-2 .left-panel .news-flex .news-social img {
+  width: 10px;
+  border-radius: 50%;
+}
+#content-flex-2 .left-panel .new1-text {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+#content-flex-2 .left-panel .new1-text h2 {
+  margin: 2rem 0;
+}
+#content-flex-2 .left-panel .new1-text a {
+  color: violet;
+}
+#content-flex-2 .left-panel .new1-text p {
+  margin: 2rem 0;
+}
+#content-flex-2 .right-panel {
+  width: 100%;
+}
+#content-flex-2 .right-panel .bio {
+  text-align: center;
+}
+#content-flex-2 .right-panel .bio img {
+  width: 70%;
+  border-radius: 50%;
+}
+#content-flex-2 .right-panel .bio .social {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+#content-flex-2 .right-panel .newsletter input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+#content-flex-2 .right-panel .newsletter button {
+  width: 100%;
+  background: violet;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#content-flex-2 .right-panel .popularpost .cards .card1 img {
+  padding: 1rem 0;
+}
+#content-flex-2 .right-panel .popularpost .cards .card1 h4 {
+  margin: 1rem 0 2rem 0;
+  font-weight: 300;
+}
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+#about .about-flex img {
+  width: 30%;
+}
+#about .about-flex p {
+  line-height: 25px;
+}
+
+#contact {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact form .flexbox {
+  flex: 1;
 }
 
 #footer {

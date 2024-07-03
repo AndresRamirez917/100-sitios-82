@@ -28,7 +28,15 @@ ul {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 3rem;
+    margin: 5rem 0 3rem 0;
+}
+
+.subtitle {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 3rem 0;
+    font-weight: 400;
 }
 
 .container {
@@ -64,6 +72,7 @@ span {
 .social {
     border-radius: 50px;
     width: 50px;
+    margin-bottom: .5rem;
 }
 
 .flex {
@@ -80,24 +89,41 @@ gap: 50px;
 
 .bio {
     padding: 30px;
-    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .newsletter {
     padding: 30px;
-    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin: 3rem 0;
 }
 
 .popularpost {
     padding: 30px;
-    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 2rem;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 }
 
 //mainheader
 #mainheader {
     .navbar {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
         ul {
             display: flex;
             margin-top: 2rem;
@@ -124,6 +150,9 @@ gap: 50px;
     margin: 0 auto;
     .left-panel {
         text-align: center;
+        .new1 {
+            margin-bottom: 2rem;
+        }
         img {
             width: 90%;
         }
@@ -131,6 +160,9 @@ gap: 50px;
             width: 80%;
             margin: 0 auto;
          margin-top: 1rem;
+         a {
+            color: violet;
+         }
            h2 {
             margin: 2rem 0;
            }
@@ -163,7 +195,10 @@ gap: 50px;
             }
             .social {
                 width: 10%;
-
+                display: block;
+                margin: 0 auto;
+                margin-top: 1rem;
+                text-align: center;
             }
         }
         .newsletter {
@@ -183,6 +218,134 @@ gap: 50px;
             cursor: pointer;
           }
             
+        }
+        .popularpost {
+            .cards {
+                .card1 {
+                    img {
+                        padding: 1rem 0;
+                    }
+                    h4 {
+                        margin: 1rem 0 2rem 0;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//articles
+#content-flex-2 {
+    width: 90%;
+    margin: 0 auto;
+    .left-panel {
+        text-align: center;
+        img {
+            width: 90%;
+        }
+        .news-flex {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 2rem;
+            h4 {
+                font-weight: 300;
+            }
+            .news-social {
+                justify-content: end;
+                img {
+                    width: 10px;
+                    border-radius: 50%; 
+                               }
+            }
+        }
+        .new1-text {
+            width: 80%;
+            margin: 0 auto;
+         margin-top: 1rem;
+           h2 {
+            margin: 2rem 0;
+           }
+           a {
+            color: violet;
+           }
+            p {
+                margin: 2rem 0;
+            }
+        }
+    }
+    .right-panel {
+        width: 100%;
+        .bio {
+            text-align: center;
+            img {
+                width: 70%;
+                border-radius: 50%;
+            }
+            .social {
+                width: 10%;
+                display: block;
+                margin: 0 auto;
+                margin-top: 1rem;
+                text-align: center;
+            }
+        }
+        .newsletter {
+          input {
+            width: 100%;
+            padding: .5rem;
+            margin-top: 1rem;
+          }
+          button {
+            width: 100%;
+            background: violet;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+            
+        }
+        .popularpost {
+            .cards {
+                .card1 {
+                    img {
+                        padding: 1rem 0;
+                    }
+                    h4 {
+                        margin: 1rem 0 2rem 0;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//about
+#about {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    .about-flex {
+        img {
+            width: 30%;
+        }
+        p {
+            line-height: 25px;
+        }
+    }
+}
+
+//contact
+#contact {
+    width: 70%;
+    margin: 0 auto;
+    form {
+        .flexbox {
+            flex: 1;
         }
     }
 }
