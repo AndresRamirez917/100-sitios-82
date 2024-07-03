@@ -80,6 +80,19 @@ gap: 50px;
 
 .bio {
     padding: 30px;
+    border: 1px solid black;
+}
+
+.newsletter {
+    padding: 30px;
+    border: 1px solid black;
+    margin: 3rem 0;
+}
+
+.popularpost {
+    padding: 30px;
+    border: 1px solid black;
+    margin-bottom: 2rem;
 }
 
 //mainheader
@@ -109,6 +122,34 @@ gap: 50px;
 #content-flex {
     width: 90%;
     margin: 0 auto;
+    .left-panel {
+        text-align: center;
+        .new1-text {
+            width: 80%;
+            margin: 0 auto;
+         margin-top: 1rem;
+           h2 {
+            margin: 2rem 0;
+           }
+            p {
+                margin-bottom: 2rem;
+            }
+            hr {
+                margin: 2rem 0;
+            }
+            .btn {
+                width: fit-content;
+                margin: 0 auto;
+            }
+            .news-social {
+                justify-content: end;
+                img {
+                    width: 10px;
+                    border-radius: 50%; 
+                               }
+            }
+        }
+    }
     .right-panel {
         width: 100%;
         .bio {
