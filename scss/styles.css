@@ -117,6 +117,10 @@ form button {
   width: 100%;
   margin-bottom: 2rem;
 }
+form button:hover {
+  background: violet;
+  color: white;
+}
 
 ::-moz-placeholder {
   font-family: "Font Awesome 5 free";
@@ -156,6 +160,9 @@ form button {
 #mainheader .navbar .social-flex img {
   width: 20px;
 }
+#mainheader .navbar .social-flex img:hover {
+  background: rgba(5, 5, 5, 0.234);
+}
 
 #content-flex {
   width: 90%;
@@ -192,12 +199,18 @@ form button {
   width: fit-content;
   margin: 0 auto;
 }
+#content-flex .left-panel .new1-text h4 {
+  font-weight: 300;
+}
 #content-flex .left-panel .new1-text .news-social {
   justify-content: end;
 }
 #content-flex .left-panel .new1-text .news-social img {
   width: 20px;
   border-radius: 50%;
+}
+#content-flex .left-panel .new1-text .news-social img:hover {
+  background: rgba(5, 5, 5, 0.234);
 }
 #content-flex .right-panel {
   width: 100%;
@@ -208,6 +221,9 @@ form button {
 #content-flex .right-panel .bio img {
   width: 70%;
   border-radius: 50%;
+}
+#content-flex .right-panel .bio img:hover {
+  background: rgba(5, 5, 5, 0.234);
 }
 #content-flex .right-panel .bio .social {
   width: 10%;
@@ -240,6 +256,9 @@ form button {
 #content-flex .right-panel .popularpost .cards .card1 img {
   padding: 1rem 0;
 }
+#content-flex .right-panel .popularpost .cards .card1 a:hover {
+  text-decoration: underline;
+}
 #content-flex .right-panel .popularpost .cards .card1 h4 {
   margin: 1rem 0 2rem 0;
   font-weight: 300;
@@ -270,6 +289,9 @@ form button {
   width: 20px;
   border-radius: 50%;
 }
+#content-flex-2 .left-panel .news-flex .news-social img:hover {
+  background: rgba(5, 5, 5, 0.234);
+}
 #content-flex-2 .left-panel .new1-text {
   width: 80%;
   margin: 0 auto;
@@ -294,8 +316,11 @@ form button {
   width: 70%;
   border-radius: 50%;
 }
+#content-flex-2 .right-panel .bio img:hover {
+  background: rgba(5, 5, 5, 0.234);
+}
 #content-flex-2 .right-panel .bio .social {
-  width: 10%;
+  width: 30px;
   display: block;
   margin: 0 auto;
   margin-top: 1rem;
@@ -324,6 +349,9 @@ form button {
 }
 #content-flex-2 .right-panel .popularpost .cards .card1 img {
   padding: 1rem 0;
+}
+#content-flex-2 .right-panel .popularpost .cards .card1 a:hover {
+  text-decoration: underline;
 }
 #content-flex-2 .right-panel .popularpost .cards .card1 h4 {
   margin: 1rem 0 2rem 0;

@@ -121,6 +121,10 @@ form {
         width: 100%;
         margin-bottom: 2rem;
     }
+    button:hover {
+        background: violet;
+        color: white;
+    }
 }
 
 ::placeholder {
@@ -153,6 +157,9 @@ form {
             justify-content: end;
             img {
                 width: 20px;
+            }
+            img:hover {
+                background: rgba(5, 5, 5, 0.234);
             }
         }
     }
@@ -190,12 +197,18 @@ form {
                 width: fit-content;
                 margin: 0 auto;
             }
+            h4 {
+                font-weight: 300;
+            }
             .news-social {
                 justify-content: end;
                 img {
                     width: 20px;
                     border-radius: 50%; 
                                }
+                               img:hover {
+                                background: rgba(5, 5, 5, 0.234);
+                            }
             }
         }
     }
@@ -206,6 +219,9 @@ form {
             img {
                 width: 70%;
                 border-radius: 50%;
+            }
+            img:hover {
+                background: rgba(5, 5, 5, 0.234);
             }
             .social {
                 width: 10%;
@@ -242,6 +258,9 @@ form {
                     img {
                         padding: 1rem 0;
                     }
+                    a:hover {
+                        text-decoration: underline;
+                    }
                     h4 {
                         margin: 1rem 0 2rem 0;
                         font-weight: 300;
@@ -274,6 +293,9 @@ form {
                     width: 20px;
                     border-radius: 50%; 
                                }
+                               img:hover {
+                                background: rgba(5, 5, 5, 0.234);
+                            }
             }
         }
         .new1-text {
@@ -299,8 +321,11 @@ form {
                 width: 70%;
                 border-radius: 50%;
             }
+            img:hover {
+                background: rgba(5, 5, 5, 0.234);
+            }
             .social {
-                width: 10%;
+                width: 30px;
                 display: block;
                 margin: 0 auto;
                 margin-top: 1rem;
@@ -332,6 +357,9 @@ form {
                 .card1 {
                     img {
                         padding: 1rem 0;
+                    }
+                    a:hover {
+                        text-decoration: underline;
                     }
                     h4 {
                         margin: 1rem 0 2rem 0;
