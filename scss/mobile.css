@@ -1,1 +1,63 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li {
+  margin: 1rem;
+  display: inline-block;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+#mainheader .navbar .social-flex {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#content-flex {
+  display: block;
+}
+#content-flex .left-panel .new1 .new1-text .news-flex {
+  display: block;
+}
+#content-flex .left-panel .new1 .new1-text .news-flex img {
+  display: block;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+#content-flex .left-panel .new1 .new1-text .news-flex img:hover {
+  background: none;
+}
+
+#content-flex-2 {
+  display: block;
+}
+#content-flex-2 .left-panel .new1 .news-flex {
+  display: block;
+}
+#content-flex-2 .left-panel .new1 .news-flex .news-social a {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 auto;
+  width: 30px;
+}
+#content-flex-2 .left-panel .new1 .news-flex .news-social img:hover {
+  background: none;
+}
+#content-flex-2 .right-panel .bio .social-flex a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about .about-flex {
+  display: block;
+}
+#about .about-flex img {
+  width: 100%;
+}
+#about .about-flex p {
+  text-align: justify;
+}/*# sourceMappingURL=mobile.css.map */

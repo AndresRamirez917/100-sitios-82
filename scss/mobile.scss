@@ -1,0 +1,92 @@
+//mainheader
+#mainheader {
+    .navbar {
+        ul {
+            display: block;
+            text-align: center;
+        }
+        li {
+            margin: 1rem;
+            display: inline-block;
+        }
+        .container {
+            display: block;
+        }
+        .social-flex {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+//left-panel
+#content-flex {
+    display: block;
+        .left-panel {
+            .new1 {
+                .new1-text {
+                    .news-flex {
+                        display: block;
+                        img {
+                         display: block;
+                         padding: 2rem 0;
+                         margin: 0 auto;
+                        }
+                        img:hover {
+                            background: none;
+                        }
+                    }
+                }
+            }
+        }
+    
+}
+
+//articles
+#content-flex-2 {
+    display: block;
+    .left-panel {
+        .new1 {
+                .news-flex {
+                    display: block;
+                    .news-social {
+                        a {
+                            display: block;
+                            text-align: center;
+                            padding: 2rem 0;
+                            margin: 0 auto;
+                            width: 30px;
+                           }
+                           img:hover {
+                               background: none;
+                           }
+                    }
+                }
+        }
+    }
+    .right-panel {
+        .bio {
+            .social-flex {
+                a {
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+//about
+#about {
+    .about-flex {
+        display: block;
+        img {
+            width: 100%;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
